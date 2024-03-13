@@ -8,5 +8,6 @@ int main()
 	wchar_t text2[100];
 	wscanf(L"%1s", text2);
 	wprintf(L"i don't know", text2);
+	printf("1111\n");
 	return 0;
 }

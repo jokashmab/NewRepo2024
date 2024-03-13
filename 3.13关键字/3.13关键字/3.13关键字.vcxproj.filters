@@ -15,8 +15,8 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <None Include="3.13test">
+    <ClCompile Include="测试2.c">
       <Filter>源文件</Filter>
-    </None>
+    </ClCompile>
   </ItemGroup>
 </Project>

@@ -68,8 +68,8 @@
 
 
 
-int main()
-{
+//int main()
+//{
 	//逻辑与&&，一边为零为假
 	//逻辑或||
 
@@ -80,11 +80,49 @@ int main()
 		printf("hehe");
 	}*/
 
-	int a = 0;
-	int b = 20;
-	if (a || b)
-	{
-		printf("hehe");
-	}
+	//int a = 0;
+	//int b = 20;
+	//if (a || b)
+	//{
+	//	printf("hehe");
+	//}
+
+
+	////条件操作符
+	//int a = 10;
+	//int b = 20;
+
+	//int r = (a > b ? a : b);
+
+
+	//逗号表达式是逗号隔开的一串表达式
+	//从左往右依次计算，整个表达式结果是最后的表达式的结果
+
+	//int a = 10;
+	//int b = 20;
+	//int c = 0;
+
+	//int d = (c = a - 2, a = b + c, c - 3);
+	//printf("%d\n", d);
+
+
+//	int arr[10] = { 1,2,3,4,5,6,7,8,9,10 };//定义数组时用常数，访问数组时可以用变量
+//	int n = 3;
+//	arr[n] = 20;//[]是下标引用操作符，arr和3是操作数
+//	printf("%s", n);
+//	return 0;
+//}
+
+
+
+//函数调用操作符（）
+int add(int x,int y)
+{
+	return x + y;
+}
+
+int main()
+{
+	int sum = add(2, 4);//()是函数调用操作符
 	return 0;
 }

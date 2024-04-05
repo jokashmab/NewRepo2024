@@ -11,23 +11,35 @@
 //}
 
 //关键字static，静态的
-//修饰局部变量
+//修饰局部变量,改变了存储位置，生命周期延长
 
-#include<stdio.h>
-void test()
-{
-	static int a = 1;
-	a++;
-	printf("%d ", a);
-}
+//#include<stdio.h>
+//void test()
+//{
+//	static int a = 1;
+//	a++;
+//	printf("%d ", a);
+//}
+//
+//int main()
+//{
+//	int i = 0;
+//	while (i < 10)
+//	{
+//		test();
+//		i++;
+//	}
+//	return 0;
+//}
 
-int main()
-{
-	int i = 0;
-	while (i < 10)
-	{
-		test();
-		i++;
-	}
-	return 0;
-}
+
+//修饰全局变量
+//int main()
+//{
+//
+//	return 0;
+//}
+
+
+
+//修饰函数
